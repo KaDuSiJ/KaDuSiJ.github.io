@@ -80,7 +80,7 @@
             fetch('https://online.kazanenglishacademy.com/ajax-handler2.php',
             {
                 method:'POST',
-                body: JSON.stringify({ "name": name, "tea": tea, "coffee": coffee})
+                body: JSON.stringify({ "name": name, "tea": tea, "coffee": coffee, "email": email})
 
             }).then(response => response.json()).then(data =>
                     {
